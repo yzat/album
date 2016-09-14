@@ -1,0 +1,127 @@
+a{
+    text-decoration: none;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+/*style content list albums*/
+#list_albums{
+    padding-left:50px;
+}
+#list_album li{
+    float:left;
+    list-style-type:none;
+}
+/*style button add album*/
+.button_back{
+    position:absolute;
+    top:20px;
+    right:65px;
+    margin:5px;
+}
+#button_add{
+    position:absolute;
+    top:20px;
+    right:65px;
+    margin:5px;
+}
+/*style main image*/
+.col-sm-2{
+    width:210px;
+}
+/*style main image in list_albums.php*/
+.body{
+    height:130px;
+    width:210px;
+}
+.main_image{
+    height:100px;
+    width:150px;
+}
+/*style content in album_content.php*/
+.main_image_con{
+    width:500px;
+    height:350px;
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+.album_desc_con{
+}
+
+/*style gallery image list_gal_images.php*/
+.img_content{
+    height:185px;
+    width:190px;
+    float:left;
+    margin:6px;
+}
+.gal_image{
+    height:140px;
+    width:190px;
+}
+#icon_gal_menu{
+    position:absolute;
+    right:10px;
+    top:10px;
+    margin:3px;
+}
+.panel_head_gal{
+    height:35px;
+}
+/*style content album_content.php*/
+#icon_add_galImg {
+    width: 25px;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+}
+#icon_sort_galImg{
+    width:25px;
+    position:absolute;
+    right:65px;
+    top:30px;
+}
+/*style modal sort image in gallery view_album.php*/
+.modal_content_width{
+    position:absolute;
+    left:-145px;
+    width:860px;
+}
+.sort_images{
+    margin-left:0;
+}
+/*style edit icon in album_content.php*/
+#icon_edit_album_content{
+    width:40px;
+    position:absolute;
+    left:-370px;
+    top:50px;
+}

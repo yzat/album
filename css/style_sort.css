@@ -1,0 +1,44 @@
+.placeholder {
+    border: 2px dashed green;
+    height:98px;
+    width:210px;
+    font-weight: bold;
+    font-size: 115px;
+    opacity: 0.8;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px #888;
+    -moz-box-shadow: 0px 0px 10px #888;
+    box-shadow: 0px 0px 10px #888;
+}
+.tile {
+    height: 220px;
+}
+.grid {
+    margin-top: 1em;
+}
+.well{
+    float:left;
+    margin:2px;
+}
+/*for sort in gallery*/
+.placeholder_gal {
+    border: 2px dashed green;
+    height:98px;
+    width:180px;
+    font-weight: bold;
+    font-size: 115px;
+    opacity: 0.8;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 5px #888;
+    -moz-box-shadow: 0px 0px 5px #888;
+}
+.tile_gal {
+    height: 140px;
+}
+.grid_gal {
+    margin-top: 1em;
+}
+.well_gal{
+    float:left;
+    margin:5px 0;
+}
